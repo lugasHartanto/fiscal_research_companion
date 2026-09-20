@@ -1,0 +1,235 @@
+{
+  "authority": "Nilai ilmiah tetap tunduk pada artefak riset sumber dan registry lineage.",
+  "common": {
+    "ci_lower": {
+      "definition": "Batas bawah interval kepercayaan 95% beku.",
+      "type": "number",
+      "unit": "sesuai koefisien"
+    },
+    "ci_upper": {
+      "definition": "Batas atas interval kepercayaan 95% beku.",
+      "type": "number",
+      "unit": "sesuai koefisien"
+    },
+    "country_code": {
+      "definition": "Kode negara ISO alpha-3.",
+      "type": "string",
+      "unit": null
+    },
+    "country_name": {
+      "definition": "Nama negara untuk tampilan.",
+      "type": "string",
+      "unit": null
+    },
+    "debt": {
+      "definition": "Utang bruto pemerintah relatif terhadap PDB.",
+      "type": "number|null",
+      "unit": "% PDB"
+    },
+    "estimate": {
+      "definition": "Estimasi koefisien beku dari model sumber.",
+      "type": "number",
+      "unit": "sesuai model"
+    },
+    "expenditure": {
+      "definition": "Belanja pemerintah relatif terhadap PDB.",
+      "type": "number|null",
+      "unit": "% PDB"
+    },
+    "gdp_growth": {
+      "definition": "Pertumbuhan PDB riil tahunan.",
+      "type": "number|null",
+      "unit": "%"
+    },
+    "net_lending_borrowing": {
+      "definition": "Net lending/borrowing pemerintah relatif terhadap PDB.",
+      "type": "number|null",
+      "unit": "% PDB"
+    },
+    "p_value": {
+      "definition": "Nilai-p yang dilaporkan oleh artefak beku.",
+      "type": "number",
+      "unit": null
+    },
+    "period": {
+      "definition": "Klasifikasi subperiode beku: pra_covid, pandemi, atau pasca_covid.",
+      "type": "string",
+      "unit": null
+    },
+    "primary_balance": {
+      "definition": "Saldo primer pemerintah relatif terhadap PDB.",
+      "type": "number|null",
+      "unit": "% PDB"
+    },
+    "revenue": {
+      "definition": "Pendapatan pemerintah relatif terhadap PDB.",
+      "type": "number|null",
+      "unit": "% PDB"
+    },
+    "std_error": {
+      "definition": "Standard error estimasi beku.",
+      "type": "number",
+      "unit": "sesuai koefisien"
+    },
+    "year": {
+      "definition": "Tahun kalender observasi.",
+      "type": "integer",
+      "unit": "tahun"
+    }
+  },
+  "cross_source_firewall": "WEO/Fiscal Monitor dan GFS S13 tidak boleh diperlakukan sebagai definisi fiscal-flow yang saling menggantikan.",
+  "datasets": {
+    "cluster_periods.json": {
+      "branch": "Integrated/WEO",
+      "fields": {
+        "cluster_id": "ID klaster dalam subperiode terkait.",
+        "country_code": "Kode negara.",
+        "country_name": "Nama negara.",
+        "debt": "Rerata utang subperiode (% PDB).",
+        "period": "Kode subperiode.",
+        "period_label": "Label dan rentang tahun.",
+        "revenue": "Rerata pendapatan subperiode (% PDB)."
+      },
+      "grain": "period × country_code",
+      "guardrail": "ID klaster antarsubperiode bukan identitas persisten.",
+      "records": 45,
+      "source": "integrated/figures/stage26_publication/figure_03_periodic_clustering_data.csv"
+    },
+    "cluster_profiles.json": {
+      "branch": "WEO/Fiscal Monitor",
+      "collections": {
+        "k4_profiles": "Profil klaster utama k=4.",
+        "k_selection": "Silhouette dan inertia untuk k=2–6."
+      },
+      "grain": "profil klaster dan kandidat k",
+      "guardrail": "Klaster adalah kemiripan statistik, bukan peringkat.",
+      "source": [
+        "WEO/tables/tabel_06d_profil_klaster_k4.csv",
+        "WEO/tables/tabel_06b_silhouette.csv"
+      ]
+    },
+    "convergence_beta.json": {
+      "branch": "WEO/Fiscal Monitor",
+      "collections": {
+        "cross_section": "Estimasi beta cross-section beku.",
+        "panel": "Estimasi beta panel dasar dan dengan kontrol."
+      },
+      "grain": "indikator dalam dua spesifikasi",
+      "guardrail": "Jangan mengestimasi ulang atau menafsirkan sebagai kausal.",
+      "source": [
+        "WEO/tables/tabel_05b_beta_cs.csv",
+        "WEO/tables/tabel_05c_beta_panel.csv"
+      ]
+    },
+    "convergence_sigma.json": {
+      "branch": "WEO/Fiscal Monitor",
+      "collections": {
+        "annual_dispersion": "SD, mean, dan n tahunan per indikator.",
+        "frozen_trend_results": "Koefisien tren dan inferensi sigma beku."
+      },
+      "grain": "tahun/indikator dalam dua koleksi",
+      "guardrail": "Konvergensi tidak berarti perbaikan fiskal.",
+      "source": [
+        "WEO/tables/tabel_05a_sigma_sd_tahunan.csv",
+        "WEO/tables/tabel_05a_sigma_tren_ols.csv"
+      ]
+    },
+    "countries.json": {
+      "fields": {
+        "broad_branch": "Keanggotaan panel regional.",
+        "country_code": "Kode ISO3.",
+        "country_name": "Nama negara.",
+        "gfs_branch": "Keanggotaan panel GFS S13.",
+        "subgroup": "Subkawasan."
+      },
+      "grain": "country_code",
+      "guardrail": "Flag cabang hanya metadata keanggotaan, bukan izin menggabungkan fiscal flows.",
+      "primary_key": [
+        "country_code"
+      ],
+      "records": 15,
+      "source": "WEO/data/processed/panel_asia_em_long.csv"
+    },
+    "frf_baseline.json": {
+      "branch": "GFS S13",
+      "grain": "model S01",
+      "guardrail": "Asosiasi, bukan kausal; SUGGESTIVE_BUT_FRAGILE.",
+      "key_fields": {
+        "countries": "Jumlah ekonomi.",
+        "lag1_debt_ci_lower": "Batas bawah IK 95%.",
+        "lag1_debt_ci_upper": "Batas atas IK 95%.",
+        "lag1_debt_estimate": "Koefisien utang t-1.",
+        "lag1_debt_p_value": "Nilai-p dua sisi.",
+        "lag1_debt_se": "Standard error koefisien utang t-1.",
+        "nobs": "Jumlah observasi efektif."
+      },
+      "records": 1,
+      "source": "GFS/audit/estimation/10_model_summary.csv"
+    },
+    "frf_robustness.json": {
+      "branch": "GFS S13",
+      "collections": {
+        "covariance_alternatives": "Tiga pilihan kovarians.",
+        "leave_one_country_out": "Lima penghilangan negara.",
+        "model_and_period_sensitivity": "Lima sensitivitas struktur/periode."
+      },
+      "grain": "varian robustness",
+      "guardrail": "Stabilitas arah tidak sama dengan robustness keseluruhan.",
+      "source": [
+        "GFS/audit/robustness/11_country_leave_one_out.csv",
+        "GFS/audit/robustness/11_covariance_sensitivity.csv",
+        "GFS/audit/robustness/11_effect_structure_sensitivity.csv"
+      ]
+    },
+    "indonesia_position.json": {
+      "branch": "WEO/Fiscal Monitor",
+      "fields": {
+        "indikator": "Kode indikator.",
+        "label": "Label tampilan dan unit.",
+        "n_negara": "Jumlah ekonomi.",
+        "nilai_idn": "Nilai Indonesia.",
+        "ranking_asc": "Peringkat menaik beku.",
+        "rata_panel": "Rata-rata panel pembanding.",
+        "selisih": "Nilai Indonesia dikurangi rata-rata panel.",
+        "subperiode": "Cakupan periode statistik."
+      },
+      "grain": "indikator × cakupan beku",
+      "guardrail": "Peringkat adalah posisi relatif, bukan ukuran kualitas fiskal.",
+      "records": 24,
+      "source": "WEO/tables/tabel_03b_ranking_indonesia.csv"
+    },
+    "regional_panel.json": {
+      "branch": "WEO/Fiscal Monitor",
+      "fields": [
+        "country_code",
+        "country_name",
+        "subgrup",
+        "year",
+        "period",
+        "revenue",
+        "expenditure",
+        "net_lending_borrowing",
+        "primary_balance",
+        "debt",
+        "gdp_growth"
+      ],
+      "grain": "country_code × year",
+      "guardrail": "Tidak boleh disubstitusi dengan fiscal-flow GFS.",
+      "primary_key": [
+        "country_code",
+        "year"
+      ],
+      "records": 165,
+      "source": "WEO/data/processed/panel_asia_em_long.csv"
+    },
+    "research_metadata.json": {
+      "definition": "Judul, cakupan, sumber, metode, periode, dan caveat ilmiah.",
+      "grain": "singleton",
+      "guardrail": "Caveat wajib ditampilkan pada konteks yang relevan.",
+      "records": 1
+    }
+  },
+  "language": "id",
+  "null_policy": "JSON null menandai nilai yang memang hilang pada artefak sumber; tidak dilakukan imputasi.",
+  "schema_version": "1.0.0"
+}

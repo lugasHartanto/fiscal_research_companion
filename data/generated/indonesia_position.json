@@ -1,0 +1,242 @@
+[
+  {
+    "indikator": "pendapatan",
+    "label": "Pendapatan (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 14.52,
+    "ranking_asc": 4,
+    "rata_panel": 18.99,
+    "selisih": -4.47,
+    "subperiode": "keseluruhan (2014–2024)"
+  },
+  {
+    "indikator": "belanja",
+    "label": "Belanja (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 17.24,
+    "ranking_asc": 3,
+    "rata_panel": 22.29,
+    "selisih": -5.05,
+    "subperiode": "keseluruhan (2014–2024)"
+  },
+  {
+    "indikator": "nlb",
+    "label": "NLB (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": -2.72,
+    "ranking_asc": 9,
+    "rata_panel": -3.3,
+    "selisih": 0.58,
+    "subperiode": "keseluruhan (2014–2024)"
+  },
+  {
+    "indikator": "saldo_primer",
+    "label": "Saldo Primer (% PDB)",
+    "n_negara": 14,
+    "nilai_idn": -0.94,
+    "ranking_asc": 9,
+    "rata_panel": -1.6,
+    "selisih": 0.66,
+    "subperiode": "keseluruhan (2014–2024)"
+  },
+  {
+    "indikator": "utang",
+    "label": "Utang (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 33.7,
+    "ranking_asc": 3,
+    "rata_panel": 57.36,
+    "selisih": -23.66,
+    "subperiode": "keseluruhan (2014–2024)"
+  },
+  {
+    "indikator": "gdp_growth",
+    "label": "Pertumbuhan PDB (%)",
+    "n_negara": 15,
+    "nilai_idn": 4.28,
+    "ranking_asc": 9,
+    "rata_panel": 4.16,
+    "selisih": 0.12,
+    "subperiode": "keseluruhan (2014–2024)"
+  },
+  {
+    "indikator": "pendapatan",
+    "label": "Pendapatan (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 14.86,
+    "ranking_asc": 4,
+    "rata_panel": 18.97,
+    "selisih": -4.11,
+    "subperiode": "Pra-COVID (2014–2019)"
+  },
+  {
+    "indikator": "belanja",
+    "label": "Belanja (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 17.05,
+    "ranking_asc": 3,
+    "rata_panel": 21.33,
+    "selisih": -4.28,
+    "subperiode": "Pra-COVID (2014–2019)"
+  },
+  {
+    "indikator": "nlb",
+    "label": "NLB (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": -2.2,
+    "ranking_asc": 9,
+    "rata_panel": -2.36,
+    "selisih": 0.16,
+    "subperiode": "Pra-COVID (2014–2019)"
+  },
+  {
+    "indikator": "saldo_primer",
+    "label": "Saldo Primer (% PDB)",
+    "n_negara": 14,
+    "nilai_idn": -0.66,
+    "ranking_asc": 11,
+    "rata_panel": -0.91,
+    "selisih": 0.25,
+    "subperiode": "Pra-COVID (2014–2019)"
+  },
+  {
+    "indikator": "utang",
+    "label": "Utang (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 28.33,
+    "ranking_asc": 3,
+    "rata_panel": 50.81,
+    "selisih": -22.47,
+    "subperiode": "Pra-COVID (2014–2019)"
+  },
+  {
+    "indikator": "gdp_growth",
+    "label": "Pertumbuhan PDB (%)",
+    "n_negara": 15,
+    "nilai_idn": 5.03,
+    "ranking_asc": 7,
+    "rata_panel": 5.04,
+    "selisih": -0.01,
+    "subperiode": "Pra-COVID (2014–2019)"
+  },
+  {
+    "indikator": "pendapatan",
+    "label": "Pendapatan (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 13.04,
+    "ranking_asc": 4,
+    "rata_panel": 18.47,
+    "selisih": -5.43,
+    "subperiode": "Pandemi (2020–2021)"
+  },
+  {
+    "indikator": "belanja",
+    "label": "Belanja (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 18.28,
+    "ranking_asc": 2,
+    "rata_panel": 24.37,
+    "selisih": -6.09,
+    "subperiode": "Pandemi (2020–2021)"
+  },
+  {
+    "indikator": "nlb",
+    "label": "NLB (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": -5.25,
+    "ranking_asc": 11,
+    "rata_panel": -5.9,
+    "selisih": 0.65,
+    "subperiode": "Pandemi (2020–2021)"
+  },
+  {
+    "indikator": "saldo_primer",
+    "label": "Saldo Primer (% PDB)",
+    "n_negara": 14,
+    "nilai_idn": -3.21,
+    "ranking_asc": 10,
+    "rata_panel": -3.95,
+    "selisih": 0.74,
+    "subperiode": "Pandemi (2020–2021)"
+  },
+  {
+    "indikator": "utang",
+    "label": "Utang (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 40.4,
+    "ranking_asc": 4,
+    "rata_panel": 64.27,
+    "selisih": -23.87,
+    "subperiode": "Pandemi (2020–2021)"
+  },
+  {
+    "indikator": "gdp_growth",
+    "label": "Pertumbuhan PDB (%)",
+    "n_negara": 15,
+    "nilai_idn": 0.8,
+    "ranking_asc": 7,
+    "rata_panel": 1.25,
+    "selisih": -0.45,
+    "subperiode": "Pandemi (2020–2021)"
+  },
+  {
+    "indikator": "pendapatan",
+    "label": "Pendapatan (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 14.84,
+    "ranking_asc": 4,
+    "rata_panel": 19.4,
+    "selisih": -4.56,
+    "subperiode": "Pasca-COVID (2022–2024)"
+  },
+  {
+    "indikator": "belanja",
+    "label": "Belanja (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 16.92,
+    "ranking_asc": 3,
+    "rata_panel": 22.83,
+    "selisih": -5.91,
+    "subperiode": "Pasca-COVID (2022–2024)"
+  },
+  {
+    "indikator": "nlb",
+    "label": "NLB (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": -2.07,
+    "ranking_asc": 10,
+    "rata_panel": -3.43,
+    "selisih": 1.36,
+    "subperiode": "Pasca-COVID (2022–2024)"
+  },
+  {
+    "indikator": "saldo_primer",
+    "label": "Saldo Primer (% PDB)",
+    "n_negara": 14,
+    "nilai_idn": 0.02,
+    "ranking_asc": 12,
+    "rata_panel": -1.43,
+    "selisih": 1.45,
+    "subperiode": "Pasca-COVID (2022–2024)"
+  },
+  {
+    "indikator": "utang",
+    "label": "Utang (% PDB)",
+    "n_negara": 15,
+    "nilai_idn": 39.97,
+    "ranking_asc": 4,
+    "rata_panel": 65.85,
+    "selisih": -25.88,
+    "subperiode": "Pasca-COVID (2022–2024)"
+  },
+  {
+    "indikator": "gdp_growth",
+    "label": "Pertumbuhan PDB (%)",
+    "n_negara": 15,
+    "nilai_idn": 5.1,
+    "ranking_asc": 9,
+    "rata_panel": 4.35,
+    "selisih": 0.75,
+    "subperiode": "Pasca-COVID (2022–2024)"
+  }
+]

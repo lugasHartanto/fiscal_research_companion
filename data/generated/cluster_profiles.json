@@ -1,0 +1,83 @@
+{
+  "k4_profiles": [
+    {
+      "anggota": "IDN, KAZ, KOR, MYS, NPL, PHL, THA, VNM",
+      "belanja_mean": 21.8,
+      "belanja_sd": 2.15,
+      "klaster": 1,
+      "n_negara": 8,
+      "nlb_mean": -2.23,
+      "nlb_sd": 1.12,
+      "pendapatan_mean": 19.56,
+      "pendapatan_sd": 2.25,
+      "utang_mean": 41.58,
+      "utang_sd": 11.84
+    },
+    {
+      "anggota": "BGD, LKA, PAK",
+      "belanja_mean": 16.81,
+      "belanja_sd": 3.73,
+      "klaster": 2,
+      "n_negara": 3,
+      "nlb_mean": -5.91,
+      "nlb_sd": 1.84,
+      "pendapatan_mean": 10.9,
+      "pendapatan_sd": 2.19,
+      "utang_mean": 64.18,
+      "utang_sd": 28.74
+    },
+    {
+      "anggota": "CHN, IND, MNG",
+      "belanja_mean": 31.47,
+      "belanja_sd": 2.68,
+      "klaster": 3,
+      "n_negara": 3,
+      "nlb_mean": -5.4,
+      "nlb_sd": 2.7,
+      "pendapatan_mean": 26.06,
+      "pendapatan_sd": 5.35,
+      "utang_mean": 68.49,
+      "utang_sd": 8.2
+    },
+    {
+      "anggota": "SGP",
+      "belanja_mean": 15.16,
+      "belanja_sd": null,
+      "klaster": 4,
+      "n_negara": 1,
+      "nlb_mean": 2.38,
+      "nlb_sd": null,
+      "pendapatan_mean": 17.54,
+      "pendapatan_sd": null,
+      "utang_mean": 129.69,
+      "utang_sd": null
+    }
+  ],
+  "k_selection": [
+    {
+      "inertia": 40.6949,
+      "k": 2,
+      "silhouette_avg": 0.3516
+    },
+    {
+      "inertia": 26.9614,
+      "k": 3,
+      "silhouette_avg": 0.3785
+    },
+    {
+      "inertia": 14.0101,
+      "k": 4,
+      "silhouette_avg": 0.4242
+    },
+    {
+      "inertia": 8.7774,
+      "k": 5,
+      "silhouette_avg": 0.425
+    },
+    {
+      "inertia": 5.1921,
+      "k": 6,
+      "silhouette_avg": 0.4374
+    }
+  ]
+}

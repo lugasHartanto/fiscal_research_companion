@@ -1,0 +1,407 @@
+[
+  {
+    "cluster_id": "P2",
+    "country_code": "BGD",
+    "country_name": "Bangladesh",
+    "debt": 29.08333333,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 8.47908911
+  },
+  {
+    "cluster_id": "P3",
+    "country_code": "CHN",
+    "country_name": "China",
+    "debt": 49.95,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 28.22293841
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "IDN",
+    "country_name": "Indonesia",
+    "debt": 28.33333333,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 14.86114065
+  },
+  {
+    "cluster_id": "P3",
+    "country_code": "IND",
+    "country_name": "India",
+    "debt": 71.06666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 19.9917491
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "debt": 19.36666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 19.71484781
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "KOR",
+    "country_name": "Korea Selatan",
+    "debt": 38.56666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 20.47016361
+  },
+  {
+    "cluster_id": "P2",
+    "country_code": "LKA",
+    "country_name": "Sri Lanka",
+    "debt": 76.56666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 12.38907988
+  },
+  {
+    "cluster_id": "P3",
+    "country_code": "MNG",
+    "country_name": "Mongolia",
+    "debt": 67.23333333,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 28.41291096
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "MYS",
+    "country_name": "Malaysia",
+    "debt": 55.88333333,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 21.18316462
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "NPL",
+    "country_name": "Nepal",
+    "debt": 28.06666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 20.36839917
+  },
+  {
+    "cluster_id": "P2",
+    "country_code": "PAK",
+    "country_name": "Pakistan",
+    "debt": 64.51666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 13.21061969
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "PHL",
+    "country_name": "Filipina",
+    "debt": 38.26666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 18.78365471
+  },
+  {
+    "cluster_id": "P4",
+    "country_code": "SGP",
+    "country_name": "Singapura",
+    "debt": 108.31666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 17.83166715
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "THA",
+    "country_name": "Thailand",
+    "debt": 42.06666667,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 21.52725467
+  },
+  {
+    "cluster_id": "P1",
+    "country_code": "VNM",
+    "country_name": "Vietnam",
+    "debt": 44.83333333,
+    "period": "pra_covid",
+    "period_label": "Pra-pandemi (2014–2019)",
+    "revenue": 19.07230585
+  },
+  {
+    "cluster_id": "C2",
+    "country_code": "BGD",
+    "country_name": "Bangladesh",
+    "debt": 35.05,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 8.91482586
+  },
+  {
+    "cluster_id": "C3",
+    "country_code": "CHN",
+    "country_name": "China",
+    "debt": 71.1,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 25.6421651
+  },
+  {
+    "cluster_id": "C2",
+    "country_code": "IDN",
+    "country_name": "Indonesia",
+    "debt": 40.4,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 13.03534632
+  },
+  {
+    "cluster_id": "C3",
+    "country_code": "IND",
+    "country_name": "India",
+    "debt": 88.15,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 19.78931013
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "debt": 25.75,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 17.30631377
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "KOR",
+    "country_name": "Korea Selatan",
+    "debt": 46.95,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 22.81644794
+  },
+  {
+    "cluster_id": "C2",
+    "country_code": "LKA",
+    "country_name": "Sri Lanka",
+    "debt": 99.8,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 8.54424597
+  },
+  {
+    "cluster_id": "C3",
+    "country_code": "MNG",
+    "country_name": "Mongolia",
+    "debt": 75.35,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 30.36506567
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "MYS",
+    "country_name": "Malaysia",
+    "debt": 68.45,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 19.27842807
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "NPL",
+    "country_name": "Nepal",
+    "debt": 43.3,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 22.14570768
+  },
+  {
+    "cluster_id": "C2",
+    "country_code": "PAK",
+    "country_name": "Pakistan",
+    "debt": 77.75,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 12.84095568
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "PHL",
+    "country_name": "Filipina",
+    "debt": 54.3,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 20.67061318
+  },
+  {
+    "cluster_id": "C4",
+    "country_code": "SGP",
+    "country_name": "Singapura",
+    "debt": 143.5,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 16.87490019
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "THA",
+    "country_name": "Thailand",
+    "debt": 53.9,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 20.2315766
+  },
+  {
+    "cluster_id": "C1",
+    "country_code": "VNM",
+    "country_name": "Vietnam",
+    "debt": 40.25,
+    "period": "pandemi",
+    "period_label": "Pandemi (2020–2021)",
+    "revenue": 18.54142675
+  },
+  {
+    "cluster_id": "R3",
+    "country_code": "BGD",
+    "country_name": "Bangladesh",
+    "debt": 39.53333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 8.36069121
+  },
+  {
+    "cluster_id": "R2",
+    "country_code": "CHN",
+    "country_name": "China",
+    "debt": 83.93333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 25.72624498
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "IDN",
+    "country_name": "Indonesia",
+    "debt": 39.96666667,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 14.84293853
+  },
+  {
+    "cluster_id": "R2",
+    "country_code": "IND",
+    "country_name": "India",
+    "debt": 84.8,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 21.15970409
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "debt": 23.63333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 21.01199252
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "KOR",
+    "country_name": "Korea Selatan",
+    "debt": 50.0,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 23.11761444
+  },
+  {
+    "cluster_id": "R3",
+    "country_code": "LKA",
+    "country_name": "Sri Lanka",
+    "debt": 109.03333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 11.08603671
+  },
+  {
+    "cluster_id": "R2",
+    "country_code": "MNG",
+    "country_name": "Mongolia",
+    "debt": 51.76666667,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 35.97001084
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "MYS",
+    "country_name": "Malaysia",
+    "debt": 68.33333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 20.51580121
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "NPL",
+    "country_name": "Nepal",
+    "debt": 46.0,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 20.52541178
+  },
+  {
+    "cluster_id": "R3",
+    "country_code": "PAK",
+    "country_name": "Pakistan",
+    "debt": 75.33333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 12.09711347
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "PHL",
+    "country_name": "Filipina",
+    "debt": 56.83333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 20.63137819
+  },
+  {
+    "cluster_id": "R4",
+    "country_code": "SGP",
+    "country_name": "Singapura",
+    "debt": 163.23333333,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 17.39369216
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "THA",
+    "country_name": "Thailand",
+    "debt": 61.86666667,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 20.72846567
+  },
+  {
+    "cluster_id": "R1",
+    "country_code": "VNM",
+    "country_name": "Vietnam",
+    "debt": 33.46666667,
+    "period": "pasca_covid",
+    "period_label": "Pemulihan (2022–2024)",
+    "revenue": 17.83790524
+  }
+]

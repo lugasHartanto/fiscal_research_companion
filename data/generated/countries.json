@@ -1,0 +1,107 @@
+[
+  {
+    "broad_branch": true,
+    "country_code": "BGD",
+    "country_name": "Bangladesh",
+    "gfs_branch": false,
+    "subgroup": "South Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "CHN",
+    "country_name": "China",
+    "gfs_branch": false,
+    "subgroup": "East Asia EM"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "IDN",
+    "country_name": "Indonesia",
+    "gfs_branch": true,
+    "subgroup": "ASEAN-6"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "IND",
+    "country_name": "India",
+    "gfs_branch": false,
+    "subgroup": "South Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "gfs_branch": false,
+    "subgroup": "Central/North Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "KOR",
+    "country_name": "Korea Selatan",
+    "gfs_branch": true,
+    "subgroup": "East Asia EM"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "LKA",
+    "country_name": "Sri Lanka",
+    "gfs_branch": false,
+    "subgroup": "South Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "MNG",
+    "country_name": "Mongolia",
+    "gfs_branch": true,
+    "subgroup": "Central/North Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "MYS",
+    "country_name": "Malaysia",
+    "gfs_branch": false,
+    "subgroup": "ASEAN-6"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "NPL",
+    "country_name": "Nepal",
+    "gfs_branch": false,
+    "subgroup": "Central/North Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "PAK",
+    "country_name": "Pakistan",
+    "gfs_branch": false,
+    "subgroup": "South Asia"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "PHL",
+    "country_name": "Filipina",
+    "gfs_branch": false,
+    "subgroup": "ASEAN-6"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "SGP",
+    "country_name": "Singapura",
+    "gfs_branch": true,
+    "subgroup": "ASEAN-6"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "THA",
+    "country_name": "Thailand",
+    "gfs_branch": true,
+    "subgroup": "ASEAN-6"
+  },
+  {
+    "broad_branch": true,
+    "country_code": "VNM",
+    "country_name": "Vietnam",
+    "gfs_branch": false,
+    "subgroup": "ASEAN-6"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "broad_branch": {
+    "coverage": "15 selected Asian economies",
+    "observations": 165,
+    "source_family": "IMF Fiscal Monitor and IMF WEO, April 2026"
+  },
+  "build": {
+    "script_version": "1.0.0",
+    "timestamp_policy": "No wall-clock timestamp in deterministic datasets"
+  },
+  "gfs_branch": {
+    "coverage": [
+      "IDN",
+      "THA",
+      "SGP",
+      "KOR",
+      "MNG"
+    ],
+    "frf_observations": 50,
+    "government_level": "S13 General Government",
+    "panel_observations": 55
+  },
+  "methods": {
+    "position": "descriptive relative position",
+    "profile": "frozen clustering outputs",
+    "response": "frozen country fixed-effects FRF",
+    "trajectory": "frozen convergence outputs"
+  },
+  "period": "2014–2024",
+  "period_definitions": {
+    "pandemi": "2020–2021",
+    "pasca_covid": "2022–2024",
+    "pra_covid": "2014–2019"
+  },
+  "research_title": "Posisi dan Keberlanjutan Fiskal Indonesia di antara Ekonomi Asia Terpilih",
+  "scientific_caveats": [
+    "Convergence does not imply fiscal improvement.",
+    "Clustering proximity is not a normative ranking.",
+    "Cross-period cluster identities are not persistent identities.",
+    "FRF results are associational, not causal.",
+    "FRF evidence is suggestive but fragile.",
+    "The integrated assessment is not a formal Debt Sustainability Analysis.",
+    "The research does not provide a binary sustainable/unsustainable verdict."
+  ],
+  "sources": {
+    "debt": "IMF WEO April 2026",
+    "expenditure": "IMF Fiscal Monitor April 2026",
+    "gdp_growth": "IMF WEO April 2026",
+    "gfs_fiscal_flows": "IMF GFS, S13 General Government",
+    "net_lending_borrowing": "IMF WEO April 2026",
+    "primary_balance": "IMF Fiscal Monitor April 2026",
+    "revenue": "IMF Fiscal Monitor April 2026"
+  }
+}

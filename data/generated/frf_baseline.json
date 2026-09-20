@@ -1,0 +1,29 @@
+[
+  {
+    "carry_forward_status": "CARRY_FORWARD_CORE",
+    "countries": 5,
+    "country_effects": "YES",
+    "covariance_type": "HETEROSKEDASTIC_ROBUST",
+    "diagnostic_status": "DIAGNOSTIC_PASS_WITH_CAUTION",
+    "effective_years": 10,
+    "gdp_growth_ci_lower": 0.4539212977,
+    "gdp_growth_ci_upper": 1.19925794,
+    "gdp_growth_estimate": 0.8265896188,
+    "gdp_growth_p_value": 5.565224408e-05,
+    "gdp_growth_se": 0.1847918692,
+    "lag1_debt_ci_lower": -0.1118966549,
+    "lag1_debt_ci_upper": -0.0004819687338,
+    "lag1_debt_estimate": -0.05618931184,
+    "lag1_debt_p_value": 0.04813553538,
+    "lag1_debt_se": 0.02762312619,
+    "model_family": "COUNTRY_FE",
+    "model_role": "CORE",
+    "nobs": 50,
+    "notes": "Model decision follows design/diagnostics, not p-value or fit.",
+    "outcome": "primary_balance",
+    "residual_df": 43,
+    "small_sample_status": "INFERENCE_FRAGILE",
+    "spec_id": "S01",
+    "year_effects": "NO"
+  }
+]
