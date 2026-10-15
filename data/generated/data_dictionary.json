@@ -115,9 +115,10 @@
         "panel": "Estimasi beta panel dasar dan dengan kontrol."
       },
       "grain": "indikator dalam dua spesifikasi",
-      "guardrail": "Jangan mengestimasi ulang atau menafsirkan sebagai kausal.",
+      "guardrail": "Jangan mengestimasi ulang atau menafsirkan sebagai kausal. λ dan half-life cross-section berasal dari tabel koreksi stage21 (λ = −ln(1+β)/H, H = 8); half-life belanja bersifat mekanis karena β tidak signifikan.",
       "source": [
         "WEO/tables/tabel_05b_beta_cs.csv",
+        "WEO/tables/stage21/21_corrected_convergence_half_life.csv",
         "WEO/tables/tabel_05c_beta_panel.csv"
       ]
     },
